@@ -157,6 +157,13 @@ main {
     transition: .3s ease;
 }
 
+.imagen p {
+    font-size: 15px;
+    text-align: center;
+    padding: 3px;
+    font-family: 'Anton', sans-serif;
+}
+
 .imagen:hover .capa {
     transform: scale(1);
 }
