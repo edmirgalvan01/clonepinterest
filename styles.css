@@ -55,10 +55,14 @@ header {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
 #bt1:hover {
     color: #fff;
-    background-color: rgb(51, 53, 49);
-    transition: 0.7s;
+    background-color: rgba(197, 199, 194, 0.801);
+    transition: 1s;
 }
 
 
@@ -77,8 +81,8 @@ header {
 
 #bt2:hover {
     color: #fff;
-    background-color: rgb(51, 53, 49);
-    transition: 0.7s;
+    background-color: rgba(197, 199, 194, 0.801);
+    transition: 1s;
 }
 
 #bt3 {
@@ -96,8 +100,8 @@ header {
 
 #bt3:hover {
     color: #fff;
-    background-color: rgb(51, 53, 49);
-    transition: 0.7s;
+    background-color: rgba(197, 199, 194, 0.801);
+    transition: 1s;
 }
 
 #i1 {
@@ -281,4 +285,43 @@ main {
     height: 300px;
     width: 180px;
     border-radius: 15px;
+}
+
+footer {
+/*     display: flex; */
+    height: 180px;
+    width: 100%;
+    align-items: center;
+/*     justify-content: center;
+    align-content: space-around; */
+    z-index: -2;
+}
+
+footer p {
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.redes-sociales {
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#rs1 {
+    height: 40px;
+    width: 40px;
+}
+
+#rs2 {
+    height: 40px;
+    width: 40px;
+}
+
+#rs3 {
+    height: 40px;
+    width: 40px;
 }
